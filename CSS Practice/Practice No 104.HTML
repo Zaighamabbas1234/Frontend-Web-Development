@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS @ Font Face Separte For heading And Seperate For
+            Paragraph</title>
+        <style>
+        @font-face{
+            font-family: OpenSansRegular;
+            src: url(/CSS/@FontFace/OpenSans-Regular-webfont.woff);
+            font-family: OpenSansBold;
+            src: url(/CSS/@FontFace/OpenSans-Bold-webfont.woff);
+        }
+        h1{
+            width: 400px;
+            border: 10px solid red;
+            margin: 20px 0px 50px 500px;
+            padding: 20px;
+            font-family: OpenSansRegular;
+        }
+        .One{
+            width: 400px;
+            border: 10px solid red;
+            margin: 20px 0px 50px 500px;
+            padding: 20px;
+            font-family: OpenSansBold;
+        }
+    </style>
+    </head>
+    <body>
+        <h1>Lorem ipsum dolor sit amet.</h1>
+        <div class="One">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+                sed commodi totam labore atque, aliquid sit harum corrupti
+                reiciendis impedit obcaecati reprehenderit earum! Nam quas
+                delectus veritatis eos quam. Repellat deleniti est itaque
+                accusantium illum qui, temporibus velit! Voluptate veritatis
+                iste sequi nostrum adipisci architecto, aperiam soluta similique
+                quibusdam, perferendis eius officiis repellendus alias fugit
+                rerum facere inventore praesentium ducimus nihil repudiandae
+                natus explicabo cum. Vero recusandae laboriosam dignissimos
+                molestias molestiae at exercitationem ipsa optio quam itaque.
+                Tenetur quaerat reiciendis non, ab dolores est iusto, eaque rem
+                nemo fuga, fugiat aliquid eius repudiandae debitis reprehenderit
+                tempora iure error voluptate. Molestias!</p>
+        </div>
+    </body>
+</html>

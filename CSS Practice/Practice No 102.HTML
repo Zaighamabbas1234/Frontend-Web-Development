@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS Coloum Span</title>
+        <style>
+            div span h4{
+                column-span: all;
+            }
+            div span h5{
+                column-span: None;
+        }
+        .One{
+            width: 400px;
+            border: 10px solid red;
+            margin: 20px 0px 50px 500px;
+            padding: 20px;
+            column-count: 3;
+            column-rule-width: 05px;
+            column-rule-style: solid;
+            column-rule-color: red;
+        }
+        .Two{
+            width: 400px;
+            border: 10px solid red;
+            margin: 20px 0px 50px 500px;
+            padding: 20px;
+            column-count: 3;
+            column-rule-width: 05px;
+            column-rule-style: solid;
+            column-rule-color: red;
+        }
+    </style>
+    </head>
+    <body>
+        <div class="One">
+            <span>
+                <h4>
+                    Column-span: All:
+                </h4>
+            </span>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+            distinctio odit dolorem recusandae quam consectetur dicta, maxime
+            aliquam numquam. Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Eum velit nostrum aliquam quos fuga reiciendis sit ratione
+            quaerat, provident nemo id tempore dicta, voluptates omnis, impedit
+            totam praesentium deleniti error eius aut. Voluptatum, asperiores a
+            numquam voluptate sint nobis illum?
+        </div>
+        <div class="Two">
+            <span>
+                <h5>
+                    Column-span: None:
+                </h5>
+            </span>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+            distinctio odit dolorem recusandae quam consectetur dicta, maxime
+            aliquam numquam. Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Eum velit nostrum aliquam quos fuga reiciendis sit ratione
+            quaerat, provident nemo id tempore dicta, voluptates omnis, impedit
+            totam praesentium deleniti error eius aut. Voluptatum, asperiores a
+            numquam voluptate sint nobis illum?
+        </div>
+    </body>
+</html>
