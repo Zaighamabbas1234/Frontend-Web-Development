@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS Display(Inline Block)</title>
+    </head>
+    <style>
+        body{
+            font-family: arial;
+        }
+        .One{
+            border: 2px dotted red;
+            margin: 0px 0px 20px 0px;
+        }
+        .Two span{
+            height: 20px;
+            width: 200px;
+            padding: 20px;
+            margin: 20px;
+            border: 2px dotted black;
+            display: inline-block;
+        }
+    </style>
+    <!-- Use of span tag. -->
+    <body>
+        <h1>Simple List:</h1>
+        <div class="One">
+            <ul>
+                <li>List item 1.</li>
+                <li>List item 2.</li>
+                <li>List item 3.</li>
+                <li>List item 4.</li>
+                <li>List item 5.</li>
+            </ul>
+        </div>
+        <h1>Display: Inline Block:</h1>
+        <div class="Two">
+            <span>List No 1.</span>
+            <span>List No 2.</span>
+            <span>List No 3.</span>
+            <span>List No 4.</span>
+            <span>List No 5.</span>
+        </div>
+    </body>
+</html>

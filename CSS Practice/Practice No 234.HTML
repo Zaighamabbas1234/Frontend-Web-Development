@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS Display(Block)</title>
+    </head>
+    <style>
+        body{
+            font-family: arial;
+        }
+        .One{
+            border: 2px dotted red;
+            margin: 0px 0px 20px 0px;
+        }
+        .Two span{
+            height: 20px;
+            width: 200px;
+            padding: 20px;
+            margin: 20px;
+            border: 2px dotted black;
+            display: block;
+        }
+        .Three a {
+            height: 20px;
+            width: 200px; 
+            padding: 20px;
+            margin: 20px;
+            border: 2px dotted black;
+            display: block;
+        }
+    </style>
+    <!-- Use of span tag. -->
+    <!-- Use of ancher tag. -->
+    <body>
+        <h1>Simple List:</h1>
+        <div class="One">
+            <ul>
+                <li>List item 1.</li>
+                <li>List item 2.</li>
+                <li>List item 3.</li>
+                <li>List item 4.</li>
+                <li>List item 5.</li>
+            </ul>
+        </div>
+        <h1>Display: Block:</h1>
+        <div class="Two">
+            <span>List No 1.</span>
+            <span>List No 2.</span>
+            <span>List No 3.</span>
+            <span>List No 4.</span>
+            <span>List No 5.</span>
+        </div>
+        <h1>Ancher Tag:</h1>
+        <div class="Three">
+            <a href>First.</a>
+            <a href>Second.</a>
+            <a href>Third.</a>
+            <a href>Four.</a>
+            <a href>Five.</a>
+        </div>
+    </body>
+</html>

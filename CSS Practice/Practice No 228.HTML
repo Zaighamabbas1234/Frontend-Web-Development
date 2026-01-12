@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS Background Mix Blend Mode(Text With Text)</title>
+    </head>
+    <style>
+        body{
+            font-family: arial;
+        }
+        .One{
+            width: 440px;
+            height: 440px;
+            border: 10px solid blue;
+        }
+        h1{
+            font-size: 40px;
+            margin: 0px;
+        }
+        h1.one{
+            color: red;
+        }
+        h1.two{
+            color: gold;
+            margin-top: -30px;
+            margin-left: 05px;
+            mix-blend-mode: color;
+        }
+    </style>
+    <body>
+        <div class="One">
+            <h1 class="one">Zaigham Abbas.</h1>
+            <h1 class="two">Zaigham Abbas.</h1>
+        </div>
+    </body>
+</html>
