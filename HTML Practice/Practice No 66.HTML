@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form Tag.com</title>
+    </head>
+
+    <body>
+        <h1>Travel Form For Our Trip</h1>
+        <form action="Backend.php">
+            <div>
+                <label for="Name">Name:</label>
+                <input type="text" placeholder="Enter your Name!" id="Name">
+            </div>
+            <h4>Select your section!</h4>
+            <div>
+                <label for="Section id (A)">Section (A)</label>
+                <input type="radio" value="Section (A)" id="Section id (A)"
+                    name="Section">
+            </div>
+            <div>
+                <label for="Section id (B)">Section (B)</label>
+                <input type="radio" value="Section (B)" id="Section id (B)"
+                    name="Section">
+            </div>
+            <div>
+                <label for="Section id (C)">Section (C)</label>
+                <input type="radio" value="Section (C)" id="Section id (C)"
+                    name="Section">
+            </div>
+            <h4>Cheak The List!</h4>
+            <div>
+                <label for="Want Canteen Card">Apply For Canteen Card</label>
+                <input type="checkbox" name="Apply For Canteen Card"
+                    id="Want Canteen Card">
+            </div>
+            <br>
+            <div>
+                <label for="Want University Card">Apply For University
+                    Card</label>
+                <input type="checkbox" name="Apply For University Card"
+                    id="Want University Card" checked>
+            </div>
+            <br>
+            <div>
+                <label for="Want Traveling Card">Apply For Traveling
+                    Card</label>
+                <input type="checkbox" name="Apply For Traveling Card"
+                    id="Want Traveling Card">
+            </div>
+            <h4>Add Some Extra Information!</h4>
+            <div>
+                <textarea name="Explain?" id="Expain?" cols="30" rows="10"
+                    placeholder="Explain Why You Want To Travel?"></textarea>
+            </div>
+            <h4>Select The Payment Method!</h4>
+            <div>
+                <select name="Select The Payment Method!"
+                    id="Select The Payment Method!">
+                    <option value="Easypaisa" selected>Easypaisa</option>
+                    <option value="Jazzcash">Jazzcash</option>
+                    <option value="Paypal">Paypal</option>
+                </select>
+            </div>
+        </form>
+    </body>
+
+</html>

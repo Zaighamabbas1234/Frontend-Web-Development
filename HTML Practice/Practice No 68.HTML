@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form Tag.com</title>
+    </head>
+    <body>
+        <div>
+            <h4>
+                Enter the required information:
+            </h4>
+            <form action="form.php">Name:
+                <input type="text" placeholder="Enter your Name">
+                <br>CNIC:
+                <input type="text" placeholder="Enter your CNIC">
+                <h4>
+                    Enter the name as your own choice:
+                </h4>
+                <label for="Name">
+                    <input type="radio" name="Name" id="Name"
+                        value="Enter the Name">Enter the Name
+                </label>
+                <br>
+                <label for="Nick Name">
+                    <input type="radio" name="Name" id="Nick Name"
+                        value="Enter the Nick Name">Enter the Nick Name
+                </label>
+                <h4>
+                    Select the specific cities:
+                </h4>
+                <select name="Cities" id="City">
+                    <option value="Select the cities">Select the cities</option>
+                    <option value="Lahore">Lahore</option>
+                    <option value="Okara">Okara</option>
+                    <option value="Hujra">Hujra</option>
+                    <option value="Renla">Renla</option>
+                </select>
+                <h4>Write an paragrah about yourself:</h4>
+                <textarea name="Explain?" id="Explain?" cols="30" rows="10"
+                    placeholder="Enter an paragraph about yourself"></textarea>
+                <h4>
+                    Cheak the following conditions:
+                </h4>
+                <label for="CheakBox">
+                    <input type="checkbox" name="Cheak Mark" id="cheak">CNIC
+                    copy
+                    <br>
+                    <input type="checkbox" name="Cheak Mark"
+                        id="cheaker">Password copy
+                    <br>
+                    <input type="checkbox" name="Cheak Mark" id="Cheaking">Data
+                    copy
+                </label>
+            </form>
+        </div>
+    </body>
+</html>
