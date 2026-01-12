@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS Word Break</title>
+    </head>
+    <style>
+            h4{
+            width: 200px;
+            border: 10px solid green;
+            margin: 20px 0px 50px 500px;
+        }
+        .One{
+            width: 200px;
+            border: 10px solid red;
+            margin: 20px 0px 50px 500px;
+            padding: 20px;
+        }
+        .Two{
+            width: 200px;
+            border: 10px solid red;
+            margin: 20px 0px 50px 500px;
+            padding: 20px;
+            word-break: break-all;
+        }
+        .Three{
+            width: 200px;
+            border: 10px solid red;
+            margin: 20px 0px 50px 500px;
+            padding: 20px;
+            word-break: keep-all;
+        }
+</style>
+    <body>
+        <h4>Normal Div:</h4>
+        <div class="One">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+            distinctio odit dolorem recusandae quam consectetur dicta, maxime
+            aliquam numquam
+            quisquam.TheQuickBrownFoxJumpsOverTheLazyDogTheQuickBrownFoxJumpsOverTheLazyDog.
+        </div>
+        <h4>Word-break: Break-all:</h4>
+        <div class="Two">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Praesentium cumque nostrum ut voluptatibus a alias fuga consequatur
+            dignissimos maiores
+            quidem.TheQuickBrownFoxJumpsOverTheLazyDogTheQuickBrownFoxJumpsOverTheLazyDog.
+        </div>
+        <h4>Word-break: Keep-all:</h4>
+        <div class="Three">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro
+            voluptate sed, voluptatum placeat dolore aliquid ipsa repellendus
+            quo quod
+            vitae.TheQuickBrownFoxJumpsOverTheLazyDogTheQuickBrownFoxJumpsOverTheLazyDog.
+        </div>
+    </body>
+</html>

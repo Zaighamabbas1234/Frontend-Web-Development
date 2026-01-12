@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS Box Sizing</title>
+        <!-- Width size increasing by appling border and padding. -->
+        <style>
+        .First{
+            width: 300px;
+            border: 05px solid green;
+        }
+        .Second{
+            width: 300px;
+            border: 10px solid blue;
+            padding: 20px 40px;
+        }
+        .Third{
+            width: 300px;
+            border: 10px solid red;
+            padding: 20px 40px;
+            box-sizing: border-box;
+        }
+        .Fourth{
+            width: 300px;
+            border: 10px solid black;
+            padding: 20px 40px;
+            box-sizing: content-box;
+        }
+    </style>
+
+    </head>
+    <body>
+        <h4>Div with simple border:</h4>
+        <div class="First">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta unde
+            nobis quasi accusantium, delectus dicta adipisci aliquam, placeat
+            natus modi quae, laboriosam saepe repellendus repellat molestiae
+            consectetur repudiandae exercitationem ipsam quibusdam suscipit rem.
+            Corporis sit reiciendis incidunt temporibus, eaque doloribus!
+        </div>
+        <br>
+        <h4>By appling the div with padding and border the width of the div
+            increases:</h4>
+        <div class="Second">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem
+            officia ab unde libero blanditiis minus nisi inventore doloribus
+            quia autem eius eveniet, maxime placeat eos quo fugiat excepturi
+            dolore est voluptates illo necessitatibus animi ratione corrupti.
+            Eligendi asperiores ipsam amet.
+        </div>
+        <br>
+        <h4>By appling the (box-sizing:border-box) the width remains the same
+            rather than by appling the padding and the border width:</h4>
+        <div class="Third">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, ut
+            vero, blanditiis at praesentium enim quibusdam non labore
+            consectetur laudantium expedita magni cupiditate distinctio quis
+            repellat fuga explicabo quos voluptate optio ratione rem est. Natus
+            sit officiis corrupti sunt et!
+        </div>
+        <br>
+        <h4>By appling the (box-sizing:content-box) the width changes by appling
+            the padding and the border width. By defult value using or using not
+            will not effect:</h4>
+        <div class="Fourth">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni,
+            incidunt quod. Dicta minima est soluta quis consequuntur rerum
+            similique amet, cumque ullam provident excepturi non quas porro quam
+            voluptatem asperiores commodi velit repudiandae! At, sequi dolorem!
+            Aliquam debitis aperiam eaque!
+        </div>
+    </body>
+</html>
